@@ -56,6 +56,10 @@ materialTable.addEventListener("click", (event) => {
   }
 });
 
+/* 
+remove content
+*/
+
 submit.addEventListener("click", (event) => {
   const rows = document.querySelectorAll("#materialTable tr:not(.thead)");
   ingredientList.innerHTML = "";
@@ -71,3 +75,7 @@ submit.addEventListener("click", (event) => {
     ingredientList.appendChild(listItem);
   });
 });
+
+/* 
+Li 추가
+*/
